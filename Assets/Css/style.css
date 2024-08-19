@@ -1,0 +1,98 @@
+.university {
+    width: 90vw;
+    overflow-x: scroll;
+    white-space: nowrap;
+    background-color: #fff;
+    display: flex;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scroll-disabler {
+    width: 100vw;
+    height: 450px;
+    position: absolute;
+    background-color: rgba(0,0,0 , 0.0001);
+  }
+  
+   ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  article {
+    min-width: 350px;
+    height: 400px;
+    padding: 1rem;
+  }
+  article .wrapper {
+    padding: 1rem;
+    background-color: #fff;
+    height: 100%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+  }
+  article .img {
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px 25px 0 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+  }
+
+
+  article .img-1{
+    background-image: url(../Images/pic-1.jpg);
+  }
+  article .img-2{
+    background-image: url(../Images/pic-2.jpg);
+  }
+  article .img-3{
+    background-image: url(../Images/pic-3.jpg);
+  }
+  article .img-4{
+    background-image: url(../Images/pic-5.jpg);
+  }
+
+  article .img-5{
+    background-image: url(../Images/pic-5.jpg);
+  }
+
+
+
+  article .content > div {
+    height: 2rem;
+    background-color: #5fcf80;
+    margin: 2rem auto 0 auto;
+    width: 85%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 5px;
+  }
+  article .content > div:last-child {
+    height: 5rem;
+    background: none;
+  }
+
+
+
+  /* University Details */
+
+
+
+  .content .uni-title{
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+ .content .uni-title h1{
+          text-align: center;
+          color: #fff;
+      }
+
+
+ .content .uni-details a{
+       color: rgb(0, 128, 6);
+      }
