@@ -448,6 +448,7 @@ h6 {
   }
 }
 
+
 /* Navmenu - Mobile */
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
@@ -572,6 +573,34 @@ h6 {
     display: block;
   }
 }
+
+
+
+.logo-sec{
+  background-image: url(../Images/log1.jpg);
+   width: 11rem;
+   height: 7rem;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   overflow: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Global Footer
@@ -2142,3 +2171,7 @@ section,
     transform: rotate(360deg);
   }
 }
+
+
+
+
