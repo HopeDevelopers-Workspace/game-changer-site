@@ -42,20 +42,20 @@
 
 
   article .img-1{
-    background-image: url(../Images/pic-1.jpg);
+    background-image: url(../Images/uni-2.webp);
   }
   article .img-2{
-    background-image: url(../Images/pic-2.jpg);
+    background-image: url(../Images/uni-1.webp);
   }
   article .img-3{
-    background-image: url(../Images/pic-3.jpg);
+    background-image: url(../Images/alexander.jpg);
   }
   article .img-4{
-    background-image: url(../Images/pic-5.jpg);
+    background-image: url(../Images/uni-5.jpg);
   }
 
   article .img-5{
-    background-image: url(../Images/pic-5.jpg);
+    background-image: url(../Images/uni-4.webp);
   }
 
 
@@ -90,6 +90,7 @@
           color: #1d1d1d;
           font-size: 1.2rem;
           font-family: "Raleway",  sans-serif;
+          text-wrap: wrap;
       }
 
 
