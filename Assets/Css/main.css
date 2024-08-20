@@ -2026,7 +2026,7 @@ section,
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #50d8af;
+  color: #0c3fcc;
 }
 
 #contact .contact-info address,
@@ -2128,7 +2128,7 @@ section,
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #0034c4;
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
