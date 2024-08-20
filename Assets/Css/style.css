@@ -62,7 +62,7 @@
 
   article .content > div {
     height: 2rem;
-    background-color: #5fcf80;
+    /* background-color: #0034c4; */
     margin: 2rem auto 0 auto;
     width: 85%;
     /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10); */
@@ -77,8 +77,6 @@
 
   /* University Details */
 
-
-
   .content .uni-title{
     padding: 0.5rem;
     display: flex;
@@ -89,7 +87,9 @@
 
  .content .uni-title h1{
           text-align: center;
-          color: #fff;
+          color: #1d1d1d;
+          font-size: 1.2rem;
+          font-family: "Raleway",  sans-serif;
       }
 
 
