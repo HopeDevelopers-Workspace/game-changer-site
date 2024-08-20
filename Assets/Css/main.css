@@ -776,7 +776,10 @@ h6 {
 }
 
 #preloader:before {
-  content: "";
+  content: "GC";
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
