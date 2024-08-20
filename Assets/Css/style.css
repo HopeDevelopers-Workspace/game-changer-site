@@ -86,7 +86,7 @@
   }
 
  .content .uni-title h1{
-          text-align: center;
+          text-align: start;
           color: #1d1d1d;
           font-size: 1.2rem;
           font-family: "Raleway",  sans-serif;
@@ -96,4 +96,16 @@
  .content .uni-details a{
        color: rgb(0, 128, 6);
       }
+      
 
+      .uni-btn{
+        border: none;
+        background: none;
+        border: 1px solid #2929f3;
+        border-radius: 0.5rem;
+      }
+
+      .uni-btn:hover{
+        background-color: #2929f3;
+        color: #fff;
+      }
