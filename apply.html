@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Apply Now</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #1e3c72, #2a5298); /* Blue gradient background */
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .form-container {
+            background-color: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Box shadow */
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .form-container h1 {
+            color: #2a5298; /* Darker blue color for the title */
+        }
+
+        .btn-primary {
+            background-color: #2a5298;
+            border-color: #2a5298;
+        }
+
+        .btn-primary:hover {
+            background-color: #1e3c72;
+            border-color: #1e3c72;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1 class="text-center mb-4">Apply Now</h1>
+        <form>
+            <div class="mb-3">
+                <label for="city" class="form-label">Which city are you currently based?</label>
+                <input type="text" class="form-control" id="city" name="city">
+            </div>
+            <div class="mb-3">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="firstName" name="first-name" required>
+            </div>
+            <div class="mb-3">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lastName" name="last-name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" name="email-address" required>
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Contact Number</label>
+                <input type="tel" class="form-control" id="phone" name="phone" required>
+            </div>
+            <div class="mb-3">
+                <label for="currentSchool" class="form-label">Current School/Institution Name</label>
+                <input type="text" class="form-control" id="currentSchool" name="current-school">
+            </div>
+            <div class="mb-3">
+                <label for="academicYear" class="form-label">Which academic year are you currently in/completed?</label>
+                <select class="form-select" id="academicYear" name="academic-year">
+                    <option value="IGCSE (YEAR 11)">IGCSE (YEAR 11)</option>
+                    <option value="AS LEVEL (YEAR 12)">AS LEVEL (YEAR 12)</option>
+                    <option value="A LEVEL (YEAR 13)">A LEVEL (YEAR 13)</option>
+                    <option value="KCSE-Form 4">KCSE-Form 4</option>
+                    <option value="Grade 11 ECZ">Grade 11 ECZ</option>
+                    <option value="Grade 12 ECZ">Grade 12 ECZ</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="courseType" class="form-label">Preferred Course Type</label>
+                <select class="form-select" id="courseType" name="course-type">
+                    <option value="Foundation (Pre-University)">Foundation (Pre-University)</option>
+                    <option value="Diploma">Diploma</option>
+                    <option value="Degree">Degree</option>
+                    <option value="Masters">Masters</option>
+                    <option value="Others">Others</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="courseInterest" class="form-label">Course of Interest</label>
+                <input type="text" class="form-control" id="courseInterest" name="course-interest">
+            </div>
+            <div class="mb-3">
+                <label for="countryStudy" class="form-label">Preferred Country of Study</label>
+                <select class="form-select" id="countryStudy" name="country-study">
+                    <option value="Australia">Australia</option>
+                    <option value="Canada">Canada</option>
+                    <option value="UK">UK</option>
+                    <option value="USA">USA</option>
+                    <option value="Dubai">Dubai</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="Cyprus">Cyprus</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="feePayment" class="form-label">Who will be funding your education?</label>
+                <input type="text" class="form-control" id="feePayment" name="fee-payment">
+            </div>
+            <div class="mb-3">
+                <label for="howYouKnowUs" class="form-label">How did you learn about us?</label>
+                <select class="form-select" id="howYouKnowUs" name="how-you-know-us">
+                    <option value="Facebook">Facebook</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="WhatsApp">WhatsApp</option>
+                    <option value="Career Teacher">Career Teacher</option>
+                    <option value="Relative">Relative</option>
+                    <option value="Friend">Friend</option>
+                    <option value="Web Search">Web Search</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="friendName" class="form-label">Recommend a friend - Name</label>
+                <input type="text" class="form-control" id="friendName" name="friend-name">
+            </div>
+            <div class="mb-3">
+                <label for="friendContact" class="form-label">Recommend a friend - Contact No.</label>
+                <input type="tel" class="form-control" id="friendContact" name="friend-contact">
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Submit</button>
+        </form>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
